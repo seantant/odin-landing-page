@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.header {
+    background-color: #1F2937;
+}
+
+
+
+/* Info */
+
+
+/* Quote */
+.quote {
+    background-color: #E5E7EB;
+}
+
+
+/* Call to Action */
+
+
+/* Footer */
+.footer {
+    background-color: #1F2937;
+}
