@@ -1,28 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Roboto";
+}
+
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
-/* Header */
-.header {
+/* Home */
+
+.home {
     background-color: #1F2937;
+    padding: 0 240px;
 }
 
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+#header-links {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    padding: 120px 0;
+}
+
+#hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-image {
+    background-color: gray;
+    flex: 1;
+}
+
+#sign-up {
+    background-color: #3882F6;
+    padding: 8px 32px;
+    border: transparent;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 
 /* Info */
 
+#info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
 
 /* Quote */
+
 .quote {
     background-color: #E5E7EB;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
 }
 
 
 /* Call to Action */
 
+.box {
+    background-color: #3882F6;
+}
 
 /* Footer */
+
 .footer {
     background-color: #1F2937;
 }
